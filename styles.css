@@ -214,7 +214,6 @@
         list-style: none;
         display: block;
         padding: 10px 20px;
-        border-bottom: 2px solid #c5c8ca;
         max-width: 200px;
         background: #e9ecef;
       }
@@ -239,7 +238,6 @@
        
       .respmenu input[type="checkbox"] {
         transition: all 1s ease;
-        text-decoration: none;
         opacity: 0; 
       }
        
@@ -251,6 +249,10 @@
         position: relative; 
         background: #e9ecef;
         min-height: 48px;
+      }
+
+      #icono{
+          font-size: 45px;
       }
        
       .respmenu nav {
