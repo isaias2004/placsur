@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -12,7 +13,8 @@
     border: 1px solid #b3b3b3;
 }
 
-.container p{
+#telefono{
+    margin-top: 15px;
     font-family: 700;
     text-align: right;
 }
@@ -58,6 +60,126 @@
     color: #a8a8a8;
 }
 
+
+.quienes p{
+    text-align: justify;
+    letter-spacing: 1px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#menu{
+    display: none;
+}
+
+.somos{
+    display: flex;
+}
+
+.somos img{
+    border-radius: 5px;
+    width: 350px;
+}
+
+.servicios .titulos {
+    text-align: right;
+}
+
+.general {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.general img{
+    width: 100px;
+}
+
+.first-linea{
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-top: 1px solid #000;
+}
+
+
+.second-linea{
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-top: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+.servicios01{
+    display: flex;
+}
+
+.servicios img{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.servicios p{
+    text-align: justify;
+    letter-spacing: 1px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.servicio02{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#vermas{
+    padding: 5px;
+    border: 1px solid royalblue;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: auto;
+}
+
+#vermas:hover{
+    background: royalblue;
+    color: white;
+    border: 1px solid black;
+    transition: all 1s ease;
+}
+
+.productos01{
+    display: flex;
+}
+
+.productos01 p{
+    max-width: 500px;
+    margin: auto;
+}
+
+#carouselExampleControls{
+    width: 500px;
+}
+
+.contacto .titulos{
+    text-align: right;
+}
+
+.contacto iframe{
+    height: 300px;
+    width: 100%;
+}
+
+.back{
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+    margin: 3px;
+    font-size: 50px;
+    color: #6c757d;
+}
+
 @media only screen and (max-width: 768px) {
 
     .container {
@@ -71,6 +193,76 @@
     }
 
     #redes i{
-        font-size:20px ;
+        font-size:30px;
     }
+
+    #telefono{
+        text-align: center;
+    }
+    
+    #menu{
+        display: block;
+    }
+
+    .titulos{    
+        text-align: center;
+        padding: 25px;
+        font-size: 25px;
+    }
+
+    .quienes p{
+        text-align: justify;
+    }
+
+    .somos img{
+        display: none;
+    }
+
+    .general img{
+        width: 50px;
+    }
+
+    .servicios .titulos{
+        text-align: center;
+    }
+
+    .servicios img{
+        display: none;
+    }
+
+    .servicios01{
+        display: block;
+    }
+
+    .servicios p{
+        margin: auto;
+        text-align: justify;
+    }
+
+    #vermas{
+        margin: auto;
+    }
+
+    .steelframe{
+        display: none;
+    }
+
+    .productos01 p{
+        margin-bottom: 15px;
+    }
+
+    .productos01{
+        display: block;
+    }
+
+    .productos01{
+        text-align: justify;
+        letter-spacing: 1px;
+    }
+
+    #carouselExampleControls{
+        width: 290px;
+        margin: auto;
+    }
+
 }
